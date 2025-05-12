@@ -2,9 +2,9 @@ import praw
 from collections import Counter
 
 
-CLIENT_ID = '1rlusVd-bbE2H1qnaGb8fg'
-CLIENT_SECRET = 'uc0-vi3zZgd8-5FmOoZGBaNskZ99VA'
-USER_AGENT = 'python:1rlusVd-bbE2H1qnaGb8fg:0.1 (by /u/Allright_a)'
+CLIENT_ID = 'Client id'
+CLIENT_SECRET = 'client secret'
+USER_AGENT = 'python:clientid:0.1 (by /u/username)'
 reddit = praw.Reddit(client_id=CLIENT_ID,
                      client_secret=CLIENT_SECRET,
                      user_agent=USER_AGENT)
